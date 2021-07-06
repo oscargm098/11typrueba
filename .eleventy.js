@@ -1,4 +1,8 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
+
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy('src/images')
 
   return {
@@ -7,4 +11,4 @@ module.exports = function(eleventyConfig) {
     templateFormats: ['njk', 'md', 'css', 'html', 'yml'],
     htmlTemplateEngine: 'njk'
   }
-}
+};
