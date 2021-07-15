@@ -3,7 +3,6 @@ import list from './modules/list'
 console.log(`Hello ${list[0]}`)
 
   
-
   function showMenu(evento) {
     evento.preventDefault();
     evento.stopPropagation();
@@ -32,6 +31,8 @@ console.log(`Hello ${list[0]}`)
   document.querySelector('#cruz').addEventListener('click', hideMenu);
   document.addEventListener('click', clickOutsideMenu);
   document.addEventListener('keydown', escKeyClosesMenu);
+
+  
   
   
 
