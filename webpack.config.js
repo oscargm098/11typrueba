@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/scripts/producto.js',
+  entry: './src/scripts/menu.js',
   output: {
     path: path.resolve(__dirname, 'dist/scripts'),
-    filename: 'producto.js'
+    filename: 'menu.js'
   },
   
   module: {
@@ -24,10 +24,10 @@ module.exports = {
 }
 
 module.exports = {
-  entry: './src/scripts/menu.js',
+  entry: './src/scripts/producto.js',
   output: {
     path: path.resolve(__dirname, 'dist/scripts'),
-    filename: 'menu.js'
+    filename: 'producto.js'
   },
   
   module: {
