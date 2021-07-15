@@ -1,17 +1,16 @@
 .nav {
     list-style: none;
     padding-left: 0;
+    padding-top: -2px;
+    
 
     li {
-        display: inline-block;
+        display: relative;
     }
 
     a {
-        color: white;
+        color: transparent;
         text-decoration: none;
     }
 
-    .nav-activo{
-        border-bottom: 2px solid;
-    }
 }

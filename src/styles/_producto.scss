@@ -1,0 +1,262 @@
+.fotosproducto{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
+
+.fotosproducto img{
+    width: 825px;
+}
+
+.bloquefotos{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -8px;
+    z-index: -40;
+}
+
+.fotosproducto2{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.fotosproducto3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.fotosproducto4 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.informacion {
+    margin-left: 925px;
+    padding-top: 150px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+h3{
+    font-size: 15px;
+    color: #939395;
+    font-weight: 300;
+    text-decoration: line-through;
+    margin-top: 35px;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h5{
+    font-size: 13px;
+    font-weight: 200;
+    font-style: italic;
+    color: #939395;
+    margin-top: 10px;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.tallas{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.tallas a, .eu{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.precio{
+    display: flex;
+}
+
+.rebaja{
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #D70001;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.textoproducto{
+    position: relative;
+    z-index: 10;
+}
+
+.estrella img{
+    width: 15px;
+    margin-right: 10px;
+}
+.estrella{
+    margin-top: -20px;
+}
+
+.guia{
+    margin-top: 250px;
+    color: #939395;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.añadir{
+    border: 2px solid;
+    width: 700px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 40px;
+    margin-left: 925px;
+}
+
+.añadir a{
+    text-decoration: none;
+    color: black;
+}
+
+.textoproducto2{
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 280px;
+    margin-left: 260px;
+}
+
+h7 {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.exteriortransparente{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textoproducto2 a{
+    display: block;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.linksinformacion{
+    margin-top: 80px;
+}
+
+.suscribete{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 1570px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.email{
+    font-size: 12px;
+    font-weight: 200;
+    font-style: italic;
+    color: #838383;
+    border: 1px solid black;
+    width: 400px;
+    height: 40px;
+    padding-top: 12px;
+    padding-left: 10px;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 17px;
+    margin-right: 120px;
+}
+
+.redes a:last-child{
+    margin-right: 0;
+}
+
+.footer{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin-bottom: 40px;
+}
+
+.ayuda, .empresa, .politica{
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.seccion1{
+    margin-left: 50px;
+}
+
+.idiomas{
+    border-top: 1px solid black;
+    width: 1570px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    padding-top: 30px;
+}
+
+.idiomas a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 100;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.idiomas a:first-child{
+    padding-left: 0;
+}
+
+.idiomas a:last-child{
+    border-right: none;
+}

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-width: 1040px;
+}
+
+
+h1{
+  font-size: 90px;
+}
+
+.iniciosesion{
+  font-weight: lighter;
+}
+
+.videofondo {
+  position: fixed;
+  top: 50%; left: 50%;
+  min-width: 1920px;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+.cabecera{
+  text-align: center;
+  position: fixed;
+  width: 1680px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.partederecha a, .ver a{
+  text-decoration: none;
+  color: white;
+}
+
+.link{
+  margin-right: 50px;
+}
+
+.partederecha{
+  display: flex;
+}
+
+.lupa img{
+  width: 18px;
+}
+
+.buscar{
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  width: 190px;
+  align-items: center;
+  display: flex;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 10px;
+  margin-right: -20px;
+}
+
+.logothatwalk img{
+  width: 200px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.cesta img{
+  width: 20px;
+}
+
+.iconomenu img{
+  margin-left: 30px;
+  width: 20px;
+
+}
+
+.ver{
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  width: 1500px;
+}
+
+
+.etiqueta a{
+  border: 1px solid white;
+  padding: 10px 80px;
+  font-weight: bold;
+  font-size: 30px;
+}
+

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-width: 1040px;
+}
+
+h1{
+  font-size: 90px;
+}
+
+.iniciosesion2{
+  font-weight: lighter;
+}
+
+.cabecera2{
+  text-align: center;
+  position: fixed;
+  width: 1680px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 40;
+  margin-top: 20px;
+}
+
+.partederecha2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.link2{
+  margin-right: 50px;
+}
+
+.partederecha2{
+  display: flex;
+}
+
+.lupa2 img{
+  width: 18px;
+}
+
+.cesta2 img{
+  width: 20px;
+}
+
+.buscar2{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  width: 190px;
+  align-items: center;
+  display: flex;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 10px;
+  margin-right: -20px;
+}
+
+.logothatwalk2 img{
+  width: 175px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  align-items: center;
+}

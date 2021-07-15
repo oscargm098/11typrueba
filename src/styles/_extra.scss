@@ -1,0 +1,59 @@
+.extra img{
+    width: 295px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.productosextras{
+    display: flex;
+    margin-left: 50px;
+}
+
+.extra{
+    margin-top: 1200px;
+    margin-bottom: 120px;
+}
+
+.titular{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.nombre{
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    width: 312px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nombre img {
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.precio{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.añadirextra{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+
+.añadirextra a{
+    text-decoration: none;
+    color: black;
+}
